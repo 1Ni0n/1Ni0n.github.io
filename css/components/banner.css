@@ -1,0 +1,25 @@
+.banner {
+  color: #93E5AB;
+  background-color: #000000;
+  padding: 30px;
+  padding-right: 10px;
+  border-radius: 5px;
+  position: fixed;
+  right: 200px;
+}
+
+.banner p {
+.banner-content {
+  /*text-align: right;*/
+}
+
+.margin p {
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+}
+
