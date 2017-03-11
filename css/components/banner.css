@@ -9,16 +9,8 @@
 }
 
 .banner-content p {
-  text-align: right;
+  text-align: left;
   font-family: 'Raleway', sans-serif;
+  bottom: 2px;
 }
 
-/*.banner p {
-  text-align: right;
-}
-*//*
-p {
-  font-family: 'Raleway', sans-serif;
-  text-align: right;
-}
-*/
