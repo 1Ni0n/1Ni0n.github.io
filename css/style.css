@@ -1,1 +1,7 @@
 @import url("components/banner.css");
+
+.container{
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+}
