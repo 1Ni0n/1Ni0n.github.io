@@ -18,22 +18,35 @@ html, body{
   margin: 15px 0px 0px 15px;
 }
 
-#header{
-  margin: 0px 15px 0px 0px;
+#avatar > #headin{
+  border: none;
+  margin: 30px 30px 0px 0px;
   color: white;
   float: right;
 }
+#avatar:hover #headin{
+  display: none;
+}
 
+#avatar > #header{
+  margin: 0px 30px 0px 0px;
+  color: white;
+  float: right;
+  display: none
+}
+#avatar:hover #header{
+  display: block;
+}
 
 .centered{
   margin: 20px 30px 20px 30px;
-  border: 2px solid white;
+  border: 2px solid #32ebf2;
   border-radius: 10px;
   padding: 0px 10px 10px 10px;
 } h2 {
   color: white;
   margin: 10px 0px 0px 0px;
-
+  border-bottom: 2px solid #32ebf2;
 } p {
   color: white;
 }
@@ -66,7 +79,7 @@ html, body{
     vertical-align: top;
     display: inline-block;
     *display: inline;
-    border: 2px solid white;
+    border: 2px solid #32ebf2;
     border-radius: 10px;
     padding: 0px 10px 10px 10px;
 
@@ -80,4 +93,13 @@ html, body{
 span {
     width: 100%;
     display: inline-block;
+}
+
+
+a{
+  color:#32ebf2;
+}
+a:hover{
+  text-decoration: none;
+  color:white;
 }
