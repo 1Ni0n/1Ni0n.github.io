@@ -1,7 +1,83 @@
-@import url("components/banner.css");
+@import url("components/avatar.css");
 
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
 .container{
-  margin-left: 0px;
-  margin-right: 0px;
-  position: relative;
+  padding: 0;
+  margin: 0;
+  background-color: #292929;
+  min-width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+#avatar{
+  margin: 15px 0px 0px 15px;
+}
+
+#header{
+  margin: 0px 15px 0px 0px;
+  color: white;
+  float: right;
+}
+
+
+.centered{
+  margin: 20px 30px 20px 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+} h2 {
+  color: white;
+  margin: 10px 0px 0px 0px;
+
+} p {
+  color: white;
+}
+
+
+
+.centerem{
+  margin: 20px 30px 20px 30px;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+} h2 {
+  color: white;
+  margin: 10px 0px 0px 0px;
+
+} p {
+  color: white;
+}
+
+#center{
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  width:100%;
+  margin: 20px 30px 20px 0px;
+  }
+
+#center > div{
+    width: 300px;
+    height: 267px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+
+  }h2 {
+  color: white;
+  margin: 10px 0px 0px 0px;
+
+} p {
+  color: white;
+}
+span {
+    width: 100%;
+    display: inline-block;
 }
