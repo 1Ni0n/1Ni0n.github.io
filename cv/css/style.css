@@ -1,5 +1,5 @@
 @import url("components/avatar.css");
-
+@import url("components/progress.css")
 
 html, body{
   height: 100%;
@@ -103,3 +103,5 @@ a:hover{
   text-decoration: none;
   color:white;
 }
+
+
